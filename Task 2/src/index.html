@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sasidharan | Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans">
+    <nav
+      class="fixed top-0 left-0 w-full z-50 bg-indigo-500 text-white py-4 px-8 flex justify-between items-center shadow-md"
+    >
+      <div class="text-2xl font-bold">Port-folio</div>
+      <ul class="flex gap-6 text-sm">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#about" class="hover:underline">About</a></li>
+        <li><a href="#services" class="hover:underline">Services</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="bg-green-500 text-white pt-28 pb-16 px-6">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+        <div>
+          <img
+            src="/My.jpg"
+            alt="Profile"
+            class="rounded-full h-48 w-48 object-cover border-4 border-white shadow-lg"
+          />
+        </div>
+
+        <div class="text-center md:text-left max-w-xl">
+          <h1 class="text-4xl font-extrabold mb-4">Welcome, I'm Sasidharan.</h1>
+          <p class="text-lg leading-relaxed">
+            A developer who brings ideas to life through modern web design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="scroll-mt-24 py-16 px-6 bg-gray-100">
+      <h2 class="text-3xl font-bold text-center mb-4">About Me</h2>
+      <p class="text-center max-w-2xl mx-auto text-gray-700 text-base">
+        I’m Sasidharan, a budding web developer currently sharpening my skills
+        through internships and personal projects. I have a solid foundation in
+        HTML, CSS, Tailwind, and JavaScript. I enjoy turning creative ideas into
+        functional and responsive websites.
+      </p>
+    </section>
+
+    <section id="services" class="py-16 px-6 bg-white">
+      <h2 class="text-3xl font-bold text-center mb-8">Services</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <div class="bg-green-500 text-white p-6 rounded-md w-64 text-center">
+          <h3 class="font-semibold text-xl mb-2">Web Design</h3>
+          <p class="text-sm">Simple and clean layout designs for your ideas.</p>
+        </div>
+        <div class="bg-green-500 text-white p-6 rounded-md w-64 text-center">
+          <h3 class="font-semibold text-xl mb-2">Frontend Development</h3>
+          <p class="text-sm">
+            Building user-friendly interfaces using HTML, CSS, and JS.
+          </p>
+        </div>
+        <div class="bg-green-500 text-white p-6 rounded-md w-64 text-center">
+          <h3 class="font-semibold text-xl mb-2">Responsive Layouts</h3>
+          <p class="text-sm">Creating designs that work on all screen sizes.</p>
+        </div>
+        <div class="bg-green-500 text-white p-6 rounded-md w-64 text-center">
+          <h3 class="font-semibold text-xl mb-2">Portfolio Help</h3>
+          <p class="text-sm">
+            Assistance in building basic personal portfolios.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 px-6 bg-gray-100">
+      <h2 class="text-3xl font-bold text-center mb-6">Contact</h2>
+      <div class="text-center">
+        <p class="mb-2">Email: sasidharan@example.com</p>
+        <p>Location: Tamil Nadu, India</p>
+      </div>
+    </section>
+
+    <footer class="bg-blue-800 text-white py-4 text-center">
+      &copy; 2025 Sasidharan. All rights reserved.
+    </footer>
+  </body>
+</html>
